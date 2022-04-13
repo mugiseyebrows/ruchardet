@@ -1,0 +1,28 @@
+{
+  "name": "ruchardet",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node -e \"console.log(require('ruchardet').detect(Buffer.from('привет')))\""
+  },
+  "keywords": [
+    "encoding",
+    "character",
+    "utf8",
+    "detector",
+    "chardet",
+    "character detection",
+    "character encoding",
+    "language",
+    "windows-1251",
+    "cp866",
+    "cp1251"
+  ],
+  "author": "Doronin Stanislav <mugisbrows@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mugiseyebrows/ruchardet.git"
+  },
+  "license": "MIT"
+}
