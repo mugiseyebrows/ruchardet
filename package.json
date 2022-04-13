@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "node -e \"console.log(require('ruchardet').detect(Buffer.from('привет')))\""
+    "test": "node tests.js"
   },
   "keywords": [
     "encoding",
@@ -24,5 +24,8 @@
     "type": "git",
     "url": "https://github.com/mugiseyebrows/ruchardet.git"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "iconv-lite": "^0.6.3"
+  }
 }
